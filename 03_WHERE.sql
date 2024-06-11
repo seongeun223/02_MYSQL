@@ -135,7 +135,7 @@ select menu_name,
 from tbl_menu
 where menu_price >= 10000
   and -- 메뉴가격이 10000원 이상
-    menu_price <= 25000
+    menu_price <= 25000;
 -- 메뉴가격이 25000원 이하
 
 /*
