@@ -2,7 +2,7 @@ create database ogclass; -- db 생성
 
 show databases; -- 전체 db 목록 조회
 
-grant all privileges on user_db.* to 'ohgiraffers'@'%'; -- 권한 부여
+grant all privileges on ogclass.* to 'ohgiraffers'@'%'; -- 권한 부여
 
 show grants for 'ohgiraffers'@'%'; -- 권한 조회
 
@@ -63,3 +63,5 @@ values ('강진영', '남', 'weed97', 'weed9935@gmail.com', null, 2),
        ('지동현', '남', 'Bring2it2on', 'yjkl0516@gmail.com', null, 3),
        ('홍주연', '여', 'juyeon99', 'juyeon0806@gmail.com', 'ISFP', 1);
 
+describe class; -- 테이블 구성 확인
+describe favorite_subject;
