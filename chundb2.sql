@@ -18,7 +18,7 @@ where char_length(professor_name) <> 3;
 -- 3.
 select
     professor_name 교수이름,
-    나이
+    professor_ssn 나이
 from tb_professor
 where substring(professor_ssn, 8, 1) in (1,3);
 
