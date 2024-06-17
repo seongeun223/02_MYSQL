@@ -6,6 +6,7 @@ DROP TABLE IF EXISTS tbl_order CASCADE;
 DROP TABLE IF EXISTS tbl_menu CASCADE;
 DROP TABLE IF EXISTS tbl_category CASCADE;
 
+
 -- 테이블 생성
 -- category 테이블 생성
 CREATE TABLE IF NOT EXISTS tbl_category
